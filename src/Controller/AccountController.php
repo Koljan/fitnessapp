@@ -45,7 +45,7 @@ class AccountController extends AbstractController
     }
 
     /**
-     * @Route("/api/account", name="app_api_account", methods={"POST"})
+     * @Route("/api/account", name="app_api_account")
      */
     public function accountApi()
     {
